@@ -1,0 +1,27 @@
+{
+  "name": "find-zipcode",
+  "version": "1.0.0",
+  "description": "## Pequena aplicação para procurar um CEP no Brasil a partir de uma API (https://viacep.com.br/).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolinasouza0/find-zipcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolinasouza0/find-zipcode/issues"
+  },
+  "homepage": "https://github.com/carolinasouza0/find-zipcode#readme",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.10.1",
+    "vite": "^4.3.1"
+  }
+}
