@@ -1,10 +1,8 @@
 import Swal from 'sweetalert2';
 
 export const fetchAPI = async (cepNumber) => {
-  const numberLength = 8;
   try {
-    if (!cepNumber || cepNumber.length < numberLength
-      || cepNumber > numberLength) {
+    if (!cepNumber) {
       throw new Error('Por favor, digite um número de CEP válido');
     }
     const response = await fetch(`https://viacep.com.br/ws/${cepNumber}/json/`);
